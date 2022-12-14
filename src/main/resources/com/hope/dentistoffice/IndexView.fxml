@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hope.dentistoffice.controllers.IndexController">
+    <Label fx:id="welcomeLabel" text="Welcome to Dentist Office" textAlignment="RIGHT">
+        <VBox.margin>
+            <Insets top="10.0"/>
+        </VBox.margin>
+        <font>
+            <Font name="Ubuntu Bold Italic" size="16.0"/>
+        </font>
+    </Label>
+
+    <Button fx:id="singInBtn" mnemonicParsing="false" onAction="#onSignInBtnClick" text="Sign In"
+            textAlignment="CENTER">
+        <VBox.margin>
+            <Insets top="50.0"/>
+        </VBox.margin>
+        <font>
+            <Font name="Ubuntu Bold" size="13.0"/>
+        </font>
+    </Button>
+</VBox>
